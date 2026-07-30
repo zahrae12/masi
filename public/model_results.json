@@ -1,0 +1,117 @@
+{
+  "baseline_accuracy": 52.9,
+  "logistic_regression_accuracy": 52.9,
+  "random_forest_accuracy": 53.6,
+  "best_walkforward_accuracy": 57.3,
+  "association_rules": {
+    "total_rules_found": 67,
+    "clean_prediction_rules": 20,
+    "rules_predicting_up": 9,
+    "rules_predicting_down": 11,
+    "top_5_rules": [
+      {
+        "rule": "ATR_Med + BB_Near_Upper + RSI_Neutral \u2192 UP",
+        "confidence": 67.0,
+        "lift": 1.27,
+        "support": 2.17
+      },
+      {
+        "rule": "RSI_Neutral + BB_Near_Upper \u2192 UP",
+        "confidence": 61.7,
+        "lift": 1.17,
+        "support": 6.23
+      },
+      {
+        "rule": "RSI_Neutral + BB_Near_Upper + MA_Golden \u2192 UP",
+        "confidence": 61.2,
+        "lift": 1.16,
+        "support": 5.34
+      },
+      {
+        "rule": "RSI_Neutral + BB_Near_Upper + MACD_Bullish + MA_Golden \u2192 UP",
+        "confidence": 61.0,
+        "lift": 1.15,
+        "support": 4.72
+      },
+      {
+        "rule": "RSI_Neutral + BB_Near_Upper + MACD_Bullish \u2192 UP",
+        "confidence": 60.6,
+        "lift": 1.15,
+        "support": 4.83
+      }
+    ]
+  },
+  "feature_importance_random_forest": [
+    {
+      "feature": "Return",
+      "importance": 15.0
+    },
+    {
+      "feature": "RSI",
+      "importance": 13.5
+    },
+    {
+      "feature": "BB_Width",
+      "importance": 13.1
+    },
+    {
+      "feature": "MACD_Hist",
+      "importance": 12.8
+    },
+    {
+      "feature": "MA_Cross",
+      "importance": 12.8
+    },
+    {
+      "feature": "ATR",
+      "importance": 11.8
+    },
+    {
+      "feature": "MACD",
+      "importance": 11.6
+    },
+    {
+      "feature": "BB_Position",
+      "importance": 9.5
+    }
+  ],
+  "walk_forward_validation": [
+    {
+      "year": "2022",
+      "accuracy": 55.1,
+      "baseline": 50.4
+    },
+    {
+      "year": "2023",
+      "accuracy": 54.2,
+      "baseline": 52.2
+    },
+    {
+      "year": "2024",
+      "accuracy": 57.3,
+      "baseline": 58.1
+    },
+    {
+      "year": "2025",
+      "accuracy": 49.0,
+      "baseline": 59.5
+    }
+  ],
+  "market_regime_statistics": {
+    "Bear": {
+      "avg_return": "-0.12%",
+      "avg_atr": "87.50",
+      "avg_rsi": "37.8"
+    },
+    "Bull": {
+      "avg_return": "+0.16%",
+      "avg_atr": "97.37",
+      "avg_rsi": "69.6"
+    },
+    "Crisis": {
+      "avg_return": "-0.15%",
+      "avg_atr": "259.79",
+      "avg_rsi": "33.1"
+    }
+  }
+}
