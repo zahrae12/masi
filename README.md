@@ -10,7 +10,6 @@ A data mining project that measures how much information technical indicators ca
 
 The goal is a **measurement, not a trading bot**: if indicators beat random guessing on an emerging market, that is evidence against the weak-form Efficient Market Hypothesis.
 
-> End-of-module project, Master in Intelligent Systems Processing, Faculty of Sciences, Mohammed V University of Rabat (2025-2026).
 
 ---
 
@@ -114,13 +113,6 @@ Then run the notebooks in order, from data cleaning to walk-forward validation.
 
 ---
 
-## Authors
-
-- Doha Chaouki
-- Hiba Chenaoui
-- [Fatima Ezzahrae Zammou](https://github.com/zahrae12)
-
-Supervised by **Mr. Imad Jalal**.
 
 ## Disclaimer
 
